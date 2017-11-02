@@ -1,64 +1,55 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-
-    <groupId>com.froudworks.hts</groupId>
-    <artifactId>ProxyServices</artifactId>
-    <version>0.8.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
-    <name>Geoffs Proxy Services</name>
-
-    <scm>
-        <connection>scm:git:https://github.com/geofffroud/ver-test.git</connection>
-        <tag>HEAD</tag>
-    </scm>
-
-      <properties>
-          <maven.compiler.source>1.8</maven.compiler.source>
-          <maven.compiler.target>1.8</maven.compiler.target>
-          <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-          <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
-          <mockito.version>1.9.5</mockito.version>
-          <camel.version>2.15.1</camel.version>
-
-	  <PSversion>0.8.0-SNAPSHOT</PSversion>
-      </properties>
-
-      <dependencies>
-          <dependency>
-              <groupId>org.apache.camel</groupId>
-              <artifactId>camel-core</artifactId>
-              <version>${camel.version}</version>
-          </dependency>
-          <dependency>
-              <groupId>org.apache.camel</groupId>
-              <artifactId>camel-cxf</artifactId>
-              <version>${camel.version}</version>
-          </dependency>
-          <dependency>
-              <groupId>org.apache.camel</groupId>
-              <artifactId>camel-jms</artifactId>
-              <version>${camel.version}</version>
-          </dependency>
-          <dependency>
-              <groupId>org.mockito</groupId>
-              <artifactId>mockito-all</artifactId>
-              <version>${mockito.version}</version>
-              <scope>test</scope>
-          </dependency>
-      </dependencies>
-
-      <build>
-          <pluginManagement>
-              <plugins>
-                  <plugin>
-                      <groupId>org.apache.maven.plugins</groupId>
-                      <artifactId>maven-compiler-plugin</artifactId>
-                      <version>${compiler.version}</version>
-                  </plugin>
-
-              </plugins>
-          </pluginManagement>
-      </build>
-
-  </project>
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.froudworks.hts</groupId>
+  <artifactId>ProxyServices</artifactId>
+  <version>0.9.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>Geoffs Proxy Services</name>
+  <scm>
+    <connection>scm:git:https://github.com/geofffroud/ver-test.git</connection>
+  </scm>
+  <properties>
+    <camel.version>2.15.1</camel.version>
+    <mockito.version>1.9.5</mockito.version>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <PSversion>0.9.0-SNAPSHOT</PSversion>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.camel</groupId>
+      <artifactId>camel-core</artifactId>
+      <version>${camel.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.camel</groupId>
+      <artifactId>camel-cxf</artifactId>
+      <version>${camel.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.camel</groupId>
+      <artifactId>camel-jms</artifactId>
+      <version>${camel.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-all</artifactId>
+      <version>${mockito.version}</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>${compiler.version}</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+</project>
