@@ -1,0 +1,13 @@
+{
+  "project": "HTS",
+  "components": [{
+    "repository_name": "ver-test",
+    "scm_url": "https://github.com/geofffroud/ver-test.git",
+    "type": "Maven",
+    "artefacts": [{
+      "name": "environment-descriptor",
+      "type": "json"
+    }],
+    "deploy": true
+  }]
+}
