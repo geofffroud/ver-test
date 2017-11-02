@@ -55,12 +55,6 @@
                       <version>${compiler.version}</version>
                   </plugin>
 
-                  <plugin>
-                      <groupId>org.apache.maven.plugins</groupId>
-                      <artifactId>maven-clean-plugin</artifactId>
-                      <version>${clean.version}</version>
-                  </plugin>
-
               </plugins>
           </pluginManagement>
       </build>
