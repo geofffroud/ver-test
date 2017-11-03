@@ -9,5 +9,14 @@
       "type": "json"
     }],
     "deploy": true
+  }, {
+    "repository_name": "hts-portal",
+    "scm_url": "https://github.com/geofffroud/ver-test.git",
+    "type": "SBT",
+    "artefacts": [{
+      "name": "hts-portal",
+      "type": "zip"
+    }],
+    "deploy": true
   }]
 }
