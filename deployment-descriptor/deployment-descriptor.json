@@ -1,37 +1,37 @@
 {
-  "components": [
-    {
-      "name": "hts-cic",
-      "version": "0.9.0"
-    },
-    {
-      "name": "ServicesIntegration",
-      "version": "0.9.0"
-    },
-    {
-      "name": "ProxyServices",
-      "version": "0.9.0"
-    },
-    {
-      "name": "HTSExternalServicesMock",
-      "version": "0.9.0"
-    },
-    {
-      "name": "db-scripts",
-      "version": "0.9.0"
-    },
-    {
-      "name": "hts-portal",
-      "version": "0.9.0"
-    },
-    {
-      "name": "hts-environments",
-      "version": "0.9.0"
-    },
-    {
-      "name": "hts-automation",
-      "version": "0.9.0"
-    }
-  ],
-  "version": "0.9.0"
+    "components": [
+        {
+            "name": "hts-cic",
+            "version": "0.17.0-SNAPSHOT"
+        },
+        {
+            "name": "ServicesIntegration",
+            "version": "0.17.0-SNAPSHOT"
+        },
+        {
+            "name": "ProxyServices",
+            "version": "0.17.0-SNAPSHOT"
+        },
+        {
+            "name": "HTSExternalServicesMock",
+            "version": "0.17.0-SNAPSHOT"
+        },
+        {
+            "name": "db-scripts",
+            "version": "0.17.0-SNAPSHOT"
+        },
+        {
+            "name": "hts-portal",
+            "version": "0.17.0-SNAPSHOT"
+        },
+        {
+            "name": "hts-environments",
+            "version": "0.17.0-SNAPSHOT"
+        },
+        {
+            "name": "hts-automation",
+            "version": "0.17.0-SNAPSHOT"
+        }
+    ],
+    "version": "0.17.0-SNAPSHOT"
 }
