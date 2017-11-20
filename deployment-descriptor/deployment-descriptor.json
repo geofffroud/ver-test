@@ -1,13 +1,13 @@
 {
     "components": [
         {
-            "repo": "https://github.com/atosorigin/ver-test.git",
+            "repo": "https://github.com/geofffroud/ver-test.git",
             "name": "hts-cic",
             "build-type": "SBT",
             "version": "0.17.0-SNAPSHOT"
         },
         {
-            "repo": "https://github.com/atosorigin/ver-test.git",
+            "repo": "https://github.com/geofffroud/ver-test.git",
             "name": "ServicesIntegration",
             "build-type": "MAVEN",
             "version": "0.17.0-SNAPSHOT"
