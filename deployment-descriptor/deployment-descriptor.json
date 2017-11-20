@@ -1,35 +1,15 @@
 {
     "components": [
         {
+            "repo": "https://github.com/atosorigin/ver-test.git",
             "name": "hts-cic",
+            "build-type": "SBT",
             "version": "0.17.0-SNAPSHOT"
         },
         {
+            "repo": "https://github.com/atosorigin/ver-test.git",
             "name": "ServicesIntegration",
-            "version": "0.17.0-SNAPSHOT"
-        },
-        {
-            "name": "ProxyServices",
-            "version": "0.17.0-SNAPSHOT"
-        },
-        {
-            "name": "HTSExternalServicesMock",
-            "version": "0.17.0-SNAPSHOT"
-        },
-        {
-            "name": "db-scripts",
-            "version": "0.17.0-SNAPSHOT"
-        },
-        {
-            "name": "hts-portal",
-            "version": "0.17.0-SNAPSHOT"
-        },
-        {
-            "name": "hts-environments",
-            "version": "0.17.0-SNAPSHOT"
-        },
-        {
-            "name": "hts-automation",
+            "build-type": "MAVEN",
             "version": "0.17.0-SNAPSHOT"
         }
     ],
