@@ -4,19 +4,19 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.froudworks.hts</groupId>
   <artifactId>ProxyServices</artifactId>
-  <version>0.22.0</version>
+  <version>0.22.0-4321-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>Geoffs Proxy Services</name>
   <scm>
     <connection>scm:git:https://github.com/geofffroud/ver-test.git</connection>
   </scm>
   <properties>
-    <camel.version>2.15.1</camel.version>
     <mockito.version>1.9.5</mockito.version>
+    <camel.version>2.15.1</camel.version>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <PSversion>0.22.0</PSversion>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <PSversion>0.22.0-4321-SNAPSHOT</PSversion>
     <maven.compiler.source>1.8</maven.compiler.source>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
   <dependencies>
