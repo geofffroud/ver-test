@@ -4,14 +4,14 @@
             "repo": "https://github.com/geofffroud/ver-test.git",
             "name": "hts-cic",
             "build-type": "SBT",
-            "version": "0.22.0-4321"
+            "version": "0.22.1"
         },
         {
             "repo": "https://github.com/geofffroud/ver-test.git",
             "name": "ServicesIntegration",
             "build-type": "MAVEN",
-            "version": "0.22.0-4321"
+            "version": "0.22.1"
         }
     ],
-    "version": "0.22.0-4321"
+    "version": "0.22.1"
 }
